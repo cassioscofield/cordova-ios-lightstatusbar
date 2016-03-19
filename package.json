@@ -1,0 +1,19 @@
+{
+    "version": "0.0.1",
+    "name": "cordova-ios-lightstatusbar",
+    "cordova_name": "cordova-ios-lightstatusbar",
+    "description": "Replaces the default black status bar with a white status bar on the splash screen",
+    "license": "MIT",
+    "repo": "https://github.com/cassioscofield/cordova-ios-lightstatusbar",
+    "keywords": [
+        "cordova",
+        "ios",
+        "UIStatusBarStyle",
+        "ios9"
+    ],
+    "platforms": [
+        "ios"
+    ],
+    "engines": [],
+    "englishdoc": ""
+}
