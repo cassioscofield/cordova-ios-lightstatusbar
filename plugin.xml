@@ -3,7 +3,7 @@
         xmlns:rim="http://www.blackberry.com/ns/widgets"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-ios-lightstatusbar"
-        version="0.0.1">
+        version="0.0.2">
     <name>cordova-ios-lightstatusbar</name>
     <description>Replaces the default black status bar with a white status bar on the splash screen</description>
     <license>Apache 2.0</license>
@@ -14,5 +14,9 @@
             <string>UIStatusBarStyleLightContent</string>
         </config-file>
     </platform>
-
+    <platform name="ios">
+        <config-file target="*-Info.plist" parent="UIViewControllerBasedStatusBarAppearance">
+            <false/>
+        </config-file>
+    </platform>
 </plugin>

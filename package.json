@@ -1,5 +1,5 @@
 {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "name": "cordova-ios-lightstatusbar",
     "cordova_name": "cordova-ios-lightstatusbar",
     "description": "Replaces the default black status bar with a white status bar on the splash screen",
