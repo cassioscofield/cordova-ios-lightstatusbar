@@ -6,3 +6,6 @@ It will add the following part to the `*-Info.plist` file during build process:
 
     <key>UIStatusBarStyle</key>
     <string>UIStatusBarStyleLightContent</string>
+    
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
